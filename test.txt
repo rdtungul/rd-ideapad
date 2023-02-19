@@ -1,0 +1,18 @@
+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
+
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIExOFxxmvnf+x7t6dqpv3Jq9uaRmzbRyUQEhwy9asWpt rosephdarl@gmail.com
+
+Create a folder: Then locate the folder using git
+
+--- Pt.1
+git init
+git config --global user.email rosephdarl@gmail.com
+git config --global user.name rdtungul
+
+--- Pt.2
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:rdtungul/rd-ideapad.git
+git push -u origin main
